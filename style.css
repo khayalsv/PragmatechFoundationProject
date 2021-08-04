@@ -52,7 +52,7 @@
     height: 80px;
     text-align: center;
     padding: 60px 0 0 0;
-    background-color: ##171a21;
+    background-color: #171a21;
     float: left;
     color: rgba(163, 154, 154, 0.856);
 }
@@ -65,7 +65,7 @@
 .ortasol {
     background-color: #1b2838;
     width: 300px;
-    height: 1200px;
+    height: 1500px;
     float: left;
 }
 
@@ -73,7 +73,7 @@
     background-color: #1b2838;
     float: left;
     width: 1265px;
-    height: 1200px;
+    height: 1500px;
 }
 
 .menu {
@@ -156,9 +156,8 @@
 }
 
 .qutus {
-    border: black 1px solid;
     width: 250px;
-    height: 220px;
+    height: 150px;
     margin: 30px auto;
 }
 
@@ -171,7 +170,6 @@
 .sekilqutusu {
     width: 936px;
     height: 356px;
-    border: black 1px solid;
     margin: 10px 0 0 0;
 }
 
@@ -207,21 +205,18 @@
 .sekilqutusu2 {
     width: 936px;
     height: 356px;
-    border: black 1px solid;
     margin: 10px 0 0 0;
 }
 
 .squtusu1 {
     width: 305px;
     height: 356px;
-    border: red 1px solid;
     float: left;
 }
 
 .squtusu2 {
     width: 305px;
     height: 356px;
-    border: red 1px solid;
     float: left;
     margin: 0 0 0 7px;
 }
@@ -229,7 +224,73 @@
 .squtusu3 {
     width: 305px;
     height: 356px;
-    border: red 1px solid;
     float: left;
     margin: 0 0 0 7px;
+}
+
+.box {
+    width: 936px;
+    height: 80px;
+    background-color: #1b2838;
+    margin: 70px 0 0 0
+}
+
+.box1 {
+    width: 200px;
+    height: 50px;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    background-color: #66c0f4;
+    border: black 1px solid;
+    border-radius: 4px;
+    border: black 1px solid;
+    float: left;
+}
+
+.box2 {
+    width: 200px;
+    height: 50px;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    background-color: #66c0f4;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin: 0 0 0 40px;
+    float: left;
+}
+
+.box3 {
+    width: 200px;
+    height: 50px;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    background-color: #66c0f4;
+    border: black 1px solid;
+    border-radius: 4px;
+    border: black 1px solid;
+    margin: 0 0 0 40px;
+    float: left;
+}
+
+.box4 {
+    width: 200px;
+    height: 50px;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    background-color: #66c0f4;
+    border: black 1px solid;
+    border-radius: 4px;
+    border: black 1px solid;
+    margin: 0 0 0 0;
+    float: right;
+}
+
+.yaziqutusu {
+    color: #66c0f4;
+    font: 15px solid italic;
+    margin: 0 0 0 30px;
 }
