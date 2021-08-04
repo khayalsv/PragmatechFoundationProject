@@ -1,0 +1,142 @@
+.basqutu {
+    width: auto;
+    height: 140px;
+    background-color: #020024;
+}
+
+.bqutu {
+    background-color: #020024;
+    color: rgba(163, 154, 154, 0.856);
+    text-align: center;
+    padding: 50px 0 0 0;
+    width: 190px;
+    height: 90px;
+    float: left;
+    margin: 0 0 0 300px;
+    font: 30px italic;
+}
+
+.iqutu {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: 60px 0 0 0;
+    background-color: #020024;
+    float: left;
+    color: rgba(163, 154, 154, 0.856);
+    margin: 0 0 0 150px;
+}
+
+.uqutu {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: 60px 0 0 0;
+    background-color: #020024;
+    float: left;
+    color: rgba(163, 154, 154, 0.856);
+}
+
+.dqutu {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: 60px 0 0 0;
+    background-color: #020024);
+    float: left;
+    color: rgba(163, 154, 154, 0.856);
+}
+
+.besqutu {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: 60px 0 0 0;
+    background-color: #020024;
+    float: left;
+    color: rgba(163, 154, 154, 0.856);
+}
+
+.ortasehife {
+    height: 750px;
+    border: black 1px solid;
+}
+
+.ortasol {
+    border: black 1px solid;
+    width: 300px;
+    height: 750px;
+    float: left;
+}
+
+.ortasag {
+    border: red 1px solid;
+    float: left;
+    width: 1261px;
+    height: 750px;
+}
+
+.menu {
+    width: auto;
+    height: 70px;
+    background-color: black;
+    margin: 30px 0 0 0;
+}
+
+.bqutu {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+
+.iqutu {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: brown;
+    float: left;
+    color: white;
+}
+
+.uqutu {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: brown;
+    float: left;
+    color: white;
+}
+
+.dqutu {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: yellow;
+    float: left;
+}
+
+.besqutu {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: green;
+    float: left;
+}
+
+.aqutu {
+    width: 150px;
+    height: 50px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background-color: green;
+    float: right;
+    margin: 0 0 0 00px;
+}
