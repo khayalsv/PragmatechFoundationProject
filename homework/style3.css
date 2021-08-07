@@ -1,0 +1,190 @@
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+    width: 100%;
+}
+
+#box1 {
+    height: 400px;
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: 200px;
+    border: black 1px solid;
+    margin: 100px 0 0 0;
+    display: inline-block;
+}
+
+.search {
+    width: 30%;
+    height: 100px;
+    border: black 1px solid;
+    display: inline-block;
+    margin: 210px 0 0 0;
+}
+
+#box2 {
+    height: 100px;
+    border: gray 1px solid;
+    margin: 20px auto;
+    display: flex;
+    justify-content: start;
+}
+
+.page {
+    width: 250px;
+    border: black 1px solid;
+}
+
+#box3 {
+    height: 600px;
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1 {
+    width: 70%;
+    border: gray 1px solid;
+    display: inline-block;
+}
+
+.bannerbox {
+    width: 30%;
+    border: solid 1px red;
+}
+
+.banner {
+    height: 24.5%;
+    border: blue 1px solid;
+}
+
+#box4 {
+    height: 960px;
+    border: 1px solid black;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qutu1 {
+    width: 65%;
+    border: black 1px solid;
+    display: inline-block;
+}
+
+.title1 {
+    height: 60px;
+    border: gray 1px solid;
+}
+
+.write1 {
+    height: 300px;
+    border: green 1px solid;
+}
+
+.title2 {
+    height: 200px;
+    border: red 1px solid;
+}
+
+.qutular1 {
+    height: 345px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.qutuitems1 {
+    width: 18%;
+    border: red 1px solid;
+}
+
+.qutu2 {
+    width: 30%;
+    border: 1px solid black;
+    margin: 0 0 0 20px;
+}
+
+.title3 {
+    height: 60px;
+    border: green 1px solid;
+}
+
+.bqutu2 {
+    border: gray 1px solid;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.qutular2 {
+    height: 890px;
+    border: 1px solid purple;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.metnler {
+    border: 1px blue solid;
+    width: 63%;
+    margin: 0 0 0 13px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.qutuitems2 {
+    height: 26%;
+    border: solid black 1px;
+}
+
+.metn {
+    height: 26%;
+    border: solid black 1px;
+}
+
+#box5 {
+    height: 500px;
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.box5-1 {
+    width: 65%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.box5-2 {
+    width: 30%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box5-1items {
+    width: 665px;
+    height: 95px;
+    background-color: gray;
+    margin: 45px 0 0 0;
+}
+
+.box5-2items {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 45px 0 0 0;
+}
