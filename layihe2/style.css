@@ -1,0 +1,198 @@
+    body {
+        font-family: "Nunito", monospace;
+        margin: 0;
+    }
+    
+    #box1,
+    #box2 {
+        width: 100%;
+        background-color: #1c1d24;
+    }
+    
+    #box1 {
+        border: #2a2a2a 1px solid;
+    }
+    
+    .menubox {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        background-color: #1c1d24;
+    }
+    
+    .krozo {
+        height: 90px;
+        width: 15%;
+        margin-right: 30%;
+        text-align: center;
+        font-size: 45px;
+        color: white;
+        padding: 35px 0 0 0;
+        cursor: pointer;
+    }
+    
+    .menu {
+        width: 10%;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        padding: 43px 0 0 0;
+        border: #313131 1px solid;
+        cursor: pointer;
+    }
+    
+    .home {
+        height: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .scroll {
+        height: 65px;
+        background-color: gray;
+        width: 5%;
+        margin: 1000px 0 0 190px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        line-height: 65px;
+        cursor: pointer;
+        background-color: #1c1d24;
+    }
+    
+    .seeportfolio {
+        height: 77%;
+        width: 40%;
+        margin: auto 0 auto 300px;
+    }
+    
+    .sosialweb {
+        height: 74px;
+        border: black 1px solid;
+        width: 16%;
+        margin: 1040px 150px 0 0;
+    }
+    
+    .socialweb i {
+        width: 100px;
+        height: 100px;
+        border-radius: 37px;
+        text-align: center;
+        line-height: 74px;
+        cursor: pointer;
+        transition: all .3s linear;
+    }
+    
+    .writebox {
+        height: 250px;
+        width: 50%;
+        margin: 200px auto;
+        text-align: center;
+        font-size: 45px;
+        color: white;
+    }
+    
+    .imgwritebox {
+        background-color: #14141a;
+        height: 1070px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgwrite h1 {
+        color: white;
+        font-size: 40px;
+        padding: 0 0 0 30px;
+    }
+    
+    .imgwrite p {
+        color: #2e303d;
+        font-size: 30px;
+        padding: 0 0 0 30px;
+    }
+    
+    .portfolio {
+        height: 100px;
+        width: 25%;
+        margin: auto;
+        background-color: #d58138;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .portfolio h1:hover {
+        color: white;
+        background-color: #1c1d24;
+    }
+    
+    .imgwrite {
+        height: 680px;
+        margin: 200px auto;
+        border: black 1px solid;
+        width: 700px;
+    }
+    
+    .header {
+        height: 330px;
+        margin: 200px auto;
+        width: 1200px;
+    }
+    
+    .header h1 {
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .header p {
+        color: #2e303d;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .boxes {
+        height: 470px;
+        background-color: #14141a;
+        margin: 25px auto;
+        width: 555px;
+    }
+    
+    .headerboxes {
+        height: 1885px;
+        background-color: #1c1d24;
+    }
+    
+    .header2 {
+        height: 90px;
+        border: black 1px solid;
+        width: 800px;
+        margin: 150px auto;
+    }
+    
+    .boxes2 {
+        height: 600px;
+        border: black 1px solid;
+        width: 800px;
+        margin: 50px auto;
+    }
+    
+    .headerboxes2 {
+        height: 1300px;
+        background-color: #14141a;
+    }
+    
+    .contact {
+        height: 800px;
+        border: black 1px solid;
+        width: 800px;
+        margin: 200px auto;
+    }
+    
+    .contactbox {
+        height: 1200px;
+        background-color: #1c1d24;
+    }
