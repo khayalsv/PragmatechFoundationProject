@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-padding {
+    padding: 20px 0;
+}
+
+.section-padding {
+    padding: 40px 0;
+}

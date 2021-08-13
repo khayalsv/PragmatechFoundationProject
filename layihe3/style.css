@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+ul,
+h1,
+h5,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*first box start*/
+
+.logo {
+    width: 150px;
+    height: 85px;
+    border: black 1px solid;
+    margin-left: 70px
+}
+
+.bigtopbar {
+    border: 1px solid black;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.buynow {
+    width: 100px;
+    height: 50px;
+    border: black 1px solid;
+    cursor: pointer;
+    position: absolute;
+    right: 150px;
+    background-color: #1e2024;
+    color: var(--color-primary);
+}
