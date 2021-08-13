@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+ul,
+h1,
+h5,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*topbar start*/
+
+.logo {
+    width: 160px;
+    height: 50px;
+    border: black 1px solid;
+}
+
+.topbar {
+    /*border-bottom: lightgray 1px solid;*/
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: green;
+}
+
+
+/*topbar end*/
+
+
+/*home stat*/
+
+.homewrite {
+    padding: 90px 0;
+}
+
+.homewrite h4 {
+    font-size: 1.5em;
+    color: red;
+    padding: 15px 15px;
+}
+
+.homewrite h1 {
+    font-size: 2em;
+    color: blue;
+    padding: 15px 15px;
+}
+
+.homewrite h5 {
+    font-size: 1em;
+    color: green;
+    padding: 15px 15px;
+}
+
+#homepage {
+    background-image: url(../layihe3/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+    border: black 1px solid;
+    width: 100%;
+}
