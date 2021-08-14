@@ -1,0 +1,163 @@
+body {
+    font-family: "Nunito", monospace;
+}
+
+ul,
+li,
+h1,
+h4,
+p,
+h3 {
+    margin: 0;
+}
+
+
+/*Topbar start*/
+
+.logo i {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #383332;
+    color: #b3b7bf;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 2px;
+    cursor: pointer;
+    transition: all .3s linear;
+    font-size: 1em;
+    box-shadow: 3px 3px 15px rgb(60, 21, 99);
+}
+
+.logo i:hover {
+    color: white;
+    background: #15161a;
+    box-shadow: 3px 3px 10px rebeccapurple;
+}
+
+#topbar {
+    background-color: #1e2024;
+}
+
+.my-btn {
+    background-color: #12151b;
+    color: rgb(184, 174, 174);
+    box-shadow: 3px 3px 15px rebeccapurple;
+}
+
+.my-btn:hover {
+    color: blanchedalmond;
+    background-color: rgb(14, 13, 13);
+}
+
+.menu ul li {
+    padding: 20px 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(184, 174, 174);
+}
+
+.menu ul li a:hover {
+    color: white;
+    text-shadow: 3px 3px 10px rebeccapurple;
+}
+
+
+/*Topbar End*/
+
+
+/*Homewrite start*/
+
+#home {
+    height: 700px;
+    border-top: 1px rgb(17, 15, 15) solid;
+    background-color: #1e2024
+}
+
+.homewrite {
+    margin-top: 50px;
+}
+
+.homewrite h4 {
+    color: rgb(122, 122, 122);
+    padding: 5px 20px;
+    font-size: 1.2em;
+}
+
+.homewrite h1 {
+    color: white;
+    padding: 30px 20px;
+}
+
+.homewrite span {
+    color: rgb(131, 83, 179);
+}
+
+.homewrite p {
+    color: rgb(122, 122, 122);
+    padding: 40px 20px;
+}
+
+
+/*Homewrite end*/
+
+
+/*Homeicons start*/
+
+.homeicons {
+    height: 150px;
+    margin-top: 60px;
+}
+
+.part1 {
+    padding: 0 30px 0 20px;
+}
+
+.part1 h3 {
+    color: rgb(160, 160, 160);
+    font-size: 1.2em;
+    padding: 0 0 60px 0;
+}
+
+.part1 i {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #383332;
+    color: #b3b7bf;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 2px;
+    cursor: pointer;
+    transition: all .3s linear;
+    font-size: 1em;
+    box-shadow: 3px 3px 15px rebeccapurple;
+}
+
+.part1 i:hover {
+    color: white;
+    background: #15161a;
+    box-shadow: 3px 3px 10px rebeccapurple;
+}
+
+
+/*Homeicons end*/
+
+
+/*Homeimage start*/
+
+.homeimage {
+    height: 500px;
+    border: 1px solid #383332;
+    width: 420px;
+    margin: 85px 0 0 200px;
+    box-shadow: 3px 3px 15px #8d3fdc;
+}
+
+
+/*Homeimage end*/
