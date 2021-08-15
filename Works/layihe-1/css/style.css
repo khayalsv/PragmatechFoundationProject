@@ -8,7 +8,8 @@ li,
 h1,
 h4,
 p,
-h3 {
+h3,
+h2 {
     margin: 0;
 }
 
@@ -188,6 +189,13 @@ h3 {
     margin-top: 45px;
     box-shadow: 3px 3px 13px rebeccapurple;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.features-items:hover {
+    color: white;
+    background: #15161a;
+    box-shadow: 1px 1px 15px rebeccapurple;
 }
 
 .inner {
@@ -225,4 +233,131 @@ h3 {
     font-size: 1.5em;
     color: rebeccapurple;
     padding: 30px 0 0 20px;
+}
+
+
+/*Features end*/
+
+
+/*Portfolio start*/
+
+#portfolio {
+    border-top: 1px solid black;
+    margin-top: 60px;
+}
+
+.portfoliocontent h4 {
+    text-align: center;
+    color: rebeccapurple;
+    padding: 70px 0 0 0;
+}
+
+.portfoliocontent h1 {
+    text-align: center;
+    color: rgb(202, 198, 206);
+    padding: 20px 0 0 0;
+}
+
+.portfolio-items {
+    width: 400px;
+    height: 400px;
+    border: black 1px solid;
+    margin-top: 45px;
+    box-shadow: 3px 3px 13px rebeccapurple;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.portfolio-items:hover {
+    color: white;
+    background: #15161a;
+    box-shadow: 1px 1px 15px rebeccapurple;
+}
+
+.portfolio-inner {
+    width: 325px;
+    height: 355px;
+    margin: 25px auto;
+}
+
+.portfolio-image {
+    height: 220px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.portfolio-inner h4 {
+    font-size: 1.2em;
+    color: rebeccapurple;
+    padding: 4px 0 0 0;
+}
+
+.portfolio-inner h2 {
+    font-size: 1.4em;
+    color: rgb(202, 198, 206);
+    padding: 15px 0 0 0;
+}
+
+.portfolio-content {
+    margin-top: 30px;
+}
+
+
+/*Portfolio end*/
+
+
+/*Resume start*/
+
+#resume {
+    border-top: 1px solid black;
+    margin-top: 60px;
+}
+
+.resumecontent h4 {
+    text-align: center;
+    color: rebeccapurple;
+    padding: 70px 0 0 0;
+}
+
+.resumecontent h1 {
+    text-align: center;
+    color: rgb(202, 198, 206);
+    padding: 20px 0 0 0;
+}
+
+.resume-items {
+    height: 140px;
+    margin-top: 30px;
+}
+
+.resume-li {
+    border: rgb(32, 27, 27) 1px solid;
+    flex-basis: 25%;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 14px rebeccapurple;
+    cursor: pointer;
+    list-style: none;
+}
+
+.resume-li:hover {
+    background: #15161a;
+    box-shadow: 1px 1px 15px rebeccapurple;
+    color: rebeccapurple;
+}
+
+.resume-li a {
+    text-decoration: none;
+    color: rgb(184, 174, 174);
+}
+
+.resume-li a:hover {
+    color: rebeccapurple;
 }
