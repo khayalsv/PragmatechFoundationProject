@@ -1,5 +1,6 @@
 body {
     font-family: "Nunito", monospace;
+    background-color: #1e2024;
 }
 
 ul,
@@ -161,3 +162,30 @@ h3 {
 
 
 /*Homeimage end*/
+
+
+/*Features*/
+
+#features {
+    border-top: 1px solid black;
+}
+
+.features-items {
+    width: 400px;
+    height: 350px;
+    border: black 1px solid;
+    margin-top: 45px;
+    box-shadow: 3px 3px 13px rebeccapurple;
+    border-radius: 5px;
+}
+
+#features h4 {
+    color: white;
+    padding: 70px 0 0 145px;
+    font-size: 1em;
+}
+
+#features h1 {
+    color: white;
+    padding: 10px 0 0 145px;
+}
