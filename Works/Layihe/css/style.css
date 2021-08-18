@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*LEFTBAR*/
+
+.left-bar {
+    height: 100vh;
+    border: black 1px solid;
+    padding: 100px;
+}
+
+.left-bar-inner {
+    text-align: center;
+    border: green 1px solid;
+    width: 300px;
+    height: 300px;
+}
+
+.logo {
+    color: black;
+}
+
+.menu {
+    color: black;
+}
+
+.copyright {
+    color: black;
+}
+
+
+/*RIGHTBAR*/
+
+.right-bar {
+    height: 100vh;
+    border: red 1px solid;
+}
