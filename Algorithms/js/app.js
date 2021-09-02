@@ -15,10 +15,11 @@ for (let i = 0; i < 8; i++) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/* let ededler = [12, 45, 23, 67, 89, 1, 17, 90]   tapwırıq 1
+/* let ededler = [12, 45, 23, 67, 89, 1, 17, 90]   tapwiriq 1
 
 for (let i = 0; i < 8; i++) {
-    if (ededler[i] % 3 == 0 && ededler[i] % 5 != 0) { console.log(`${ededler[i]} 3 e bolunen 5 e bolunmeyen`) }
+    if (ededler[i] % 3 == 0 && ededler[i] % 5 != 0)
+     { console.log(`${ededler[i]} 3 e bolunen 5 e bolunmeyen`) }
 }
  */
 
@@ -36,12 +37,14 @@ console.log(ededler[2]) */
 
 let ededler = [12, 45, 23, 67, 89, 1, 17, 90]
 toplam = 0
-for (let i = 0; i < ededler.length; i++) {
+for (let i in ededler) {
     if (i % 2 == 0)
         toplam = toplam + ededler[i]
+    console.log(ededler[i], i)
 
 }
 console.log(toplam)
+
 
 
 
