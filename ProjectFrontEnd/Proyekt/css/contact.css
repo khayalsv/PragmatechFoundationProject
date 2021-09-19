@@ -54,8 +54,7 @@ input[type='submit'] {
     overflow: hidden;
 }
 
-.items-contact img {
-    transition: all .3s ease;
-    object-fit: cover;
-    max-width: 100% !important;
+.items-contact i {
+    padding: 45px;
+    font-size: 310px;
 }
