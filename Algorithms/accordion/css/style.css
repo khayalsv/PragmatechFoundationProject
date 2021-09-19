@@ -1,0 +1,51 @@
+.accordion {
+    background-color: rgba(172, 172, 172, 0.719);
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 19px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.panel {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    padding: 0 19px;
+    background-color: white;
+}
+
+
+/* .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+} */
