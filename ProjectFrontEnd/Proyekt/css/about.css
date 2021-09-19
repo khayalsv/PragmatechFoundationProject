@@ -1,0 +1,35 @@
+.about {
+    max-width: 700px;
+    height: 100vh;
+}
+
+.about-image {
+    margin-top: 10px;
+}
+
+.description-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.name2 {
+    margin: 25px auto;
+    color: #bbb;
+}
+
+.left {
+    padding-right: 30px;
+}
+
+.right {
+    width: 30%;
+}
+
+.btn {
+    margin-top: 45px;
+}
+
+.right ul li p span {
+    color: #bbb;
+}

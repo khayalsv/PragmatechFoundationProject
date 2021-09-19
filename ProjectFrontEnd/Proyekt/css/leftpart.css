@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #767676;
+    /* font-family: "Mulish"; */
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    transition: all .3s ease;
+    background-color: #000;
+}
+
+.col-3,
+.col-9,
+.col-lg-9 {
+    padding: 0;
+}
+
+ul,
+li,
+h1,
+h4,
+p,
+h3,
+h2,
+h5,
+h6,
+span,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #bbb;
+}
+
+ul,
+li,
+h1,
+h4,
+p,
+h3,
+h2,
+h5,
+h6,
+span,
+a:hover {
+    color: white;
+}
+
+ul:hover~.cursor {
+    background-color: white !important;
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: .5;
+}
+
+.leftpart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    position: fixed;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+
+.menu ul li a:hover {
+    letter-spacing: 0.2em;
+}
+
+.rightpart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #111
+}
+
+.cursor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    border: 1px solid white;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+}
+
+.cursor2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+}
+
+
+/*Mobile*/
+
+.mobile {
+    width: 100%;
+}
+
+.leftpart-inner-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: white;
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-mobile li {
+    padding: 0 10px 0 0;
+}
+
+.logo-mobile a {
+    color: black
+}
+
+.menu-mobile li a {
+    color: black
+}
+
+.copyright {
+    padding-top: 60px;
+    font-style: italic;
+    font-weight: 500;
+}
