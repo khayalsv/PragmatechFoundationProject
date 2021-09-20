@@ -18,6 +18,9 @@
     .description-inner {
         display: block !important;
     }
+    .details {
+        padding-left: 25px;
+    }
     .about {
         width: 100% !important;
     }
@@ -26,14 +29,11 @@
         margin: 10px auto 0 auto;
     }
     .name {
-        padding: 30px 0 0 10px;
-        font-size: 20px;
-        font-weight: 550;
+        padding: 45px 0 0 10px;
+        font-size: 30px;
+        font-weight: 800;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
-    }
-    .avatar {
-        padding: 0 !important;
     }
     .name2,
     .left,

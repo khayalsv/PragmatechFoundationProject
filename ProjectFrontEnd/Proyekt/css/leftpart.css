@@ -71,6 +71,7 @@ ul:hover~.cursor {
 }
 
 .menu ul li a:hover {
+    transition: .5s;
     letter-spacing: 0.2em;
 }
 
