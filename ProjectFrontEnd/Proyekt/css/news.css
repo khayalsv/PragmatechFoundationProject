@@ -26,6 +26,7 @@
     border: 1px solid black;
     margin: 50px auto;
     box-shadow: 0px 0px 20px rgb(255 255 255 / 7%);
+    max-width: 400px;
 }
 
 .items-img {
@@ -35,6 +36,7 @@
 .items-img img {
     transition: all .3s ease;
     object-fit: cover;
+    width: 100%;
 }
 
 .items-img:hover img {
@@ -43,10 +45,17 @@
 
 .items-write {
     background-color: #000;
-    height: 200px;
+    min-height: 260px;
 }
 
 .items-write p,
 h4 {
     padding: 10px 0 0 50px;
+}
+
+.items-write h4 {
+    padding: 7px 0 0 7px;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 2px;
 }

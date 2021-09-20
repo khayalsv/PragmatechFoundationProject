@@ -46,7 +46,14 @@ textarea {
 input[type='submit'] {
     background-color: white;
     color: #111;
-    width: 30%
+    width: 35%
+}
+
+input[type='submit']:hover {
+    background-color: white;
+    color: #111;
+    width: 37%;
+    box-shadow: 2px 0 8px gray;
 }
 
 .items-contact {

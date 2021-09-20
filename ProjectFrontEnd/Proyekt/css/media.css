@@ -20,7 +20,6 @@
     }
     .about {
         width: 100% !important;
-        height: 100%;
     }
     .about-image {
         width: 65%;
@@ -63,15 +62,26 @@
         width: 100% !important;
     }
     .items-contact {
-        display: none;
+        display: none !important;
+    }
+    .cursor,
+    .cursor2 {
+        display: none !important;
     }
 }
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 990px) {
     .col-3 {
         display: block !important;
     }
     .mobile {
         display: none !important;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .about {
+        height: 100% !important;
+        width: 100% !important;
     }
 }

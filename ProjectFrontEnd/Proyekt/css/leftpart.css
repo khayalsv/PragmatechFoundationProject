@@ -132,7 +132,7 @@ ul:hover~.cursor {
 }
 
 .menu-mobile li {
-    padding: 0 10px 0 0;
+    padding-left: 15px;
 }
 
 .logo-mobile a {
