@@ -1,10 +1,3 @@
-/* @media only screen and (max-width: 768px) {
-
-    .home-content {
-        display: block !important;
-    }
-} */
-
 @media only screen and (max-width: 1024px) {
     .col-3 {
         display: none !important;
@@ -23,6 +16,7 @@
     }
     .about {
         width: 100% !important;
+        height: 100vh;
     }
     .about-image {
         width: 65%;
@@ -43,9 +37,6 @@
     .btn {
         margin: 20px 0;
     }
-    .portfolio {
-        width: 100%;
-    }
     h1 {
         display: none !important;
     }
@@ -55,8 +46,10 @@
     .title {
         width: 100% !important;
     }
-    .contact {
-        height: 100vh !important;
+    input[type='submit'] {
+        background-color: white;
+        color: #111;
+        width: 40% !important;
     }
     .contact-forum {
         width: 100% !important;
@@ -67,6 +60,9 @@
     .cursor,
     .cursor2 {
         display: none !important;
+    }
+    .items {
+        margin: 50px 0 0 0 !important;
     }
 }
 
@@ -79,9 +75,8 @@
     }
 }
 
-@media only screen and (max-width:568px) {
-    .about {
-        height: 100% !important;
-        width: 100% !important;
+@media only screen and (max-width:320px) {
+    .name {
+        font-size: 23px;
     }
 }
