@@ -1,25 +1,3 @@
-""" istifadeci=[]
-
-
-while True:
-    emr=input('yeni istifadeci elave edilsinmi (1/2):')
-    
-    if emr=='1':
-        ad=input("ad: ")
-        soyad=input("soyad: ")
-        yas=input("yas: ")
-        email=input("email: ")
-        istifadeci.extend([ad,soyad,yas,email])
-
-    
-
-    elif emr=='2':
-        print(istifadeci)
-        break """
-
-
-
-
 library=[]
 
 import json
