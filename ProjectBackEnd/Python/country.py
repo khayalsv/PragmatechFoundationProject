@@ -1,5 +1,5 @@
 import json
-from os import umask
+
 
 file=open("city.json","r")
 
@@ -9,13 +9,16 @@ getDataFromJson=json.loads(data)
 
 world=[]
 
+lst=[]
+
 
 def findLongName(name):
     LongName=""
     for e in name:
         if len(e)>len(LongName):
             LongName=e
-    print(LongName)
+    print(f'{LongName} coordinate {x["lat"]} {x["lng"]}')
+
 
 def findLongNameCity(name):
     LongName=""
@@ -23,6 +26,11 @@ def findLongNameCity(name):
         if len(e)>len(LongName):
             LongName=e
     print(f'{LongName} country {x["country"]}')
+
+
+def closest(lst, K):
+      
+    return lst[min(range(len(lst)), key = lambda i: abs(lst[i]-K))]
 
 
 while True:
@@ -50,19 +58,35 @@ while True:
 
     if command=="3":
         for x in getDataFromJson:
-            c=(f'{x["country"]} coordinate {x["lat"]} {x["lng"]}')
-            world.append(c)
+            y=(f'{x["country"]}')
+            world.append(y)
         findLongName(world)
         break
     
     
     if command=="4":
         for x in getDataFromJson:
-            c=(f'{x["city"]}')
-            world.append(c)
+            y=(f'{x["city"]}')
+            world.append(y)
         findLongNameCity(world)
         break
     
+
+ 
+
+    if command=="5":
+        for x in getDataFromJson:
+            y=(f'{x["lat"]}')
+            a=(f'{x["country"]}')
+            lst.append(float(y))
+            K=0
+        print(closest(lst , K)) 
+        
+
+             
+        
+
+            
 
     elif command=="0":
         break
