@@ -1,0 +1,40 @@
+.about {
+    max-width: 700px;
+    height: 100vh;
+}
+
+.about-image {
+    margin-top: 10px;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.description-inner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.name2 {
+    margin: 15px auto;
+    color: #bbb;
+}
+
+.left-about {
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.left-about p {
+    padding-bottom: 20px;
+}
+
+.right {
+    width: 30%;
+}
+
+.right ul li p span {
+    color: #bbb;
+}

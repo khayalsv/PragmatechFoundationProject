@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- LeftPart -->
+            <div class="col-3"></div>
+            <!-- RightPart -->
+            <div class="col-lg-9 col-sm-12 col-md-12">
+                <div class="rightpart">
+                    <div class="news">
+                        <div class="title">
+                            <h5>News</h5>
+                        </div>
+                        <div class="left">
+                            <h1>Latest News</h1>
+                        </div>
+                        <div class="news-image">
+                            <div class="container-fluid">
+                                <div class="row">
+                                {%for newsdata in news %}
+                                    <div class="col-lg-6 col-sm-12 col-md-6">
+                                        <div class="items">
+                                            <div class="items-img"><img src="../static/images/{{newsdata.image}}"></div>
+                                            <div class="items-write">
+                                                <p>{{newsdata.title}}</p>
+                                                <hr>
+                                                <h4>{{newsdata.text}}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {%endfor%}
+                                    <div class="col-lg-6 col-sm-12 col-md-6">
+                                        <div class="items">
+                                            <div class="items-img"><img src="../static/images/python.png" alt=""></div>
+                                            <div class="items-write">
+                                                <p>Python <i class="fab fa-python"></i></p>
+                                                <hr>
+                                                <h4>Python dili - interpretasiya olunan, yüksək səviyyəli və ümumi-məqsədli proqramlaşdırma dilidir. 1991-ci ildə Guido van Rossum tərəfindən yaradılmışdır.sBu dilin məqsədi onun dil quruluşu və obyekt-yönümlülüyü
+                                                    ilə proqramçılara xırda və iri həcimli layihələrdə aydın, məntiqli kod yazmağa kömək etməkdir.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 col-md-6">
+                                        <div class="items">
+                                            <div class="items-img"><img src="../static/images/c.png" alt=""></div>
+                                            <div class="items-write">
+                                                <p>C# <i class="fab fa-cuttlefish"></i></p>
+                                                <hr>
+                                                <h4>C#(C Sharp) – Microsoft.Net platformu ilə birlikdə təqdim olunan C ailəsinə aid yeni obyekt orientasıyalı dillərdən biri. Sintaksis və platform olaraq ən çox Javaya yaxındır. Javadakı bir çox xüsusiyyət
+                                                    – sadəlik, tullantı avtomatik təmizləmə mexanizmi, virtual maşın (CLR) – bu dildə də mövcuddur.Obyektyönümlü proqramlaşdırma dilidir.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 col-md-6">
+                                        <div class="items">
+                                            <div class="items-img"><img src="../static/images/java.png" alt=""></div>
+                                            <div class="items-write">
+                                                <p>Java <i class="fab fa-java"></i></p>
+                                                <hr>
+                                                <h4>Java – Sun Microsystems şirkəti tərəfindən obyektyönlü proqramlaşdırma dilinə və texnologiyalara verilən ümumi ad.23 may 1995-ci ildə təqdim olunmuşdur.Bu dil məişət cihazlarının proqramlaşdırılması üçün
+                                                    yaradılmışdı.
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}
+</html>

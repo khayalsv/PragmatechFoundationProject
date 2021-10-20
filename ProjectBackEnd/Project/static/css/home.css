@@ -1,0 +1,68 @@
+.home {
+    min-width: 80%;
+    min-height: 100vh;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    text-align: center;
+}
+
+.avatar {
+    padding: 0 55px 0 30px;
+    max-width: 500px;
+}
+
+.avatar img {
+    animation: morph 8s ease-in-out infinite;
+    box-shadow: 5px 5px 25px rgb(162 160 160);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    z-index: 5;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+    }
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.job {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 20px;
+    color: rgb(219, 219, 219);
+}
+
+.sosial i {
+    font-size: 20px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
