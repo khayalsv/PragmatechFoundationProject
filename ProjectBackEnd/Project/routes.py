@@ -147,6 +147,7 @@ def add_portfolio():
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         portdata=Portfolio(
             title = request.form.get('title'),
+            link = request.form.get('link'),
             image = filename
         )
         db.session.add(portdata)
@@ -170,6 +171,7 @@ def edit_portfolio(id):
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
         portdata.title = request.form.get('title')
+        portdata.link = request.form.get('link')
         portdata.image = filename
         db.session.commit()
         return redirect(url_for('portfolio'))

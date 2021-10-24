@@ -27,6 +27,7 @@ class About(db.Model):
 class Portfolio(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False, )
+    link = db.Column(db.String(20),)
     image = db.Column(db.String(20),)
 
 
