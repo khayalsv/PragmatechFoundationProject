@@ -1,0 +1,44 @@
+{% extends 'admin/base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <div class="jumbotron p-3">
+                <h2>Manage Home <a href="{{url_for('add_home')}}"><button type="button"  class="btn btn-success float-right"
+                data-toggle="modal">Add New Home</button> </h2></a>
+                <table class="table table-hover table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Text</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>Twitter</th>
+                        <th>Image</th>
+                        <th>Date Posted</th>
+                    </tr>
+                    {% for homedata in home %}
+                    <tr>
+                        <td>{{homedata.id}}</td>
+                        <td>{{homedata.name}}</td>
+                        <td>{{homedata.text}}</td>
+                        <td>{{homedata.fb}}</td>
+                        <td>{{homedata.insta}}</td>
+                        <td>{{homedata.twitter}}</td>
+                        <td>{{homedata.image|truncate(15)}}</td>
+                        <td>
+                            <a href="{{url_for('edit_home', id=homedata.id)}}" class="btn btn-info btn-xs">Edit</a>
+                            <a href="{{url_for('delete_home', id=homedata.id)}}" class="btn btn-danger btn-xs" 
+                            onclick="return confirm('Are You Sure To Delete ?')">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
